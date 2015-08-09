@@ -1,0 +1,49 @@
+Module 1
+
+  Web page -Based on angular js		
+  develop webpage
+  Select Text 
+  put it on image 
+  Submit	
+  
+  Share on social nw
+
+Module 2
+
+	database
+	image xml
+	use memcache
+	tables
+	Authorized rest services 
+
+
+Module 3
+
+	Web page
+	Categories
+	Thumbnails
+	
+
+Module 4 
+
+	Genric mobile App
+	share image on social nw
+	
+Module 5
+
+	select image 
+	select text
+	share
+
+Module 6
+
+	download from server
+	categorize
+	edit , Send
+
+
+	
+		
+	
+
+	

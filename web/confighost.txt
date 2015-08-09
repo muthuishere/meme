@@ -1,0 +1,26 @@
+on hosts file 
+
+127.0.0.1       meme.local
+::1             meme.local
+
+uncomment on wamp\bin\apache\apache2.4.9\conf\httpd.conf
+
+ #Include conf/extra/httpd-vhosts.conf
+ 
+ 
+on file  wamp\bin\apache\apache2.4.9\conf\extra\httpd-vhosts.conf 
+
+
+<VirtualHost *:9999>
+   DocumentRoot "C:/muthu/gitworkspace/meme/web"
+   ServerName meme.local
+   <Directory "C:/muthu/gitworkspace/meme/web">
+      AllowOverride All
+      Require local
+   </Directory>
+     ErrorLog "logs/meme.local-error.log"
+    CustomLog "logs/meme.local-access.log" common
+</VirtualHost>
+
+
+Access like meme.local:9999
