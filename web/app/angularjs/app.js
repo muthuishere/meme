@@ -5,14 +5,29 @@ var app = angular.module('app', [
 
 app.config(['$routeProvider', '$locationProvider',  function($routeProvider, $locationProvider) {
 	
-	$routeProvider.when('/', {
-		templateUrl: '/app/angularjs/views/dashboard.php',
-		controller: 'DashboardController',
-	});
+
+	
+	 $routeProvider
+        .when('/authenticate', {
+           templateUrl: '/app/angularjs/views/dashboard.php',
+			controller: 'DashboardController',
+        })
+        .when('/home', {
+              templateUrl: '/app/angularjs/views/canvas.php',
+            controller: 'CanvasController'
+        })
+        .otherwise({
+            redirectTo: '/home'
+        });
+		
+		
+	
 
 }]);
 
 
 app.run(['$rootScope', '$location', '$http', function($rootScope, $location, $http){
+
+console.log("halo")
 
 }]);

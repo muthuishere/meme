@@ -1,5 +1,6 @@
  
- <div ng-app="myApp2" ng-controller="namesCtrl">
+ 
+ <div  ng-view class="view-animate">
  
   <form role="form">
     <div class="form-group">
@@ -13,6 +14,7 @@
 	
 	</form>
  <canvas id="c" width="500" height="500" style="border:1px solid #ccc"></canvas>
+ </div>
 <script>
 	// Place script tags at the bottom of the page.
 	// That way progressive page rendering and 
@@ -20,7 +22,7 @@
  
 	// Run only when HTML is loaded and 
 	// DOM properly initialized (courtesy jquery)
-	$(function () {
+/* 	$(function () {
 		
 		// Obtain a canvas drawing surface from fabric.js
 		var canvas = new fabric.Canvas('c');
@@ -37,5 +39,5 @@
 		// the canvas.	
 		canvas.add(hi);
 				
-	});
+	}); */
 </script>

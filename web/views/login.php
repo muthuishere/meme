@@ -9,5 +9,5 @@
     <label for="password">Password</label>
     <input type="password" class="form-control" id="password" placeholder="Password">
   </div>
-  <a type="submit" href="/app/" class="btn btn-default">Submit</a>
+  <a type="submit" href="/app/authenticate" class="btn btn-default">Submit</a>
 </form>
